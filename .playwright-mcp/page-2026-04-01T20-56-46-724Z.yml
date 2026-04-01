@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: Create a pricing card component
+            - img [ref=e60]
+          - generic [ref=e81]:
+            - img [ref=e84]
+            - generic [ref=e89]:
+              - generic [ref=e92]: Creating /App.jsx
+              - separator [ref=e93]
+              - generic [ref=e96]: Creating /components/PricingCard.jsx
+              - separator [ref=e97]
+              - generic [ref=e98]:
+                - paragraph [ref=e99]: "Done! Created a pricing card component with:"
+                - list [ref=e100]:
+                  - listitem [ref=e101]:
+                    - text: Reusable
+                    - code [ref=e484]: PricingCard
+                    - text: component with customizable name, price, description, and features
+                  - listitem [ref=e103]: Highlight option to showcase the most popular plan
+                  - listitem [ref=e104]: Check icons for features using lucide-react
+                  - listitem [ref=e105]: Hover scale effect and responsive grid layout
+                  - listitem [ref=e106]: Three example pricing tiers in the App
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e108]:
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116] [cursor=pointer]:
+              - img [ref=e117]
+              - img [ref=e119]
+              - generic [ref=e121]: components
+            - generic [ref=e124] [cursor=pointer]:
+              - img [ref=e125]
+              - generic [ref=e130]: PricingCard.jsx
+          - generic [ref=e132] [cursor=pointer]:
+            - img [ref=e133]
+            - generic [ref=e138]: App.jsx
+        - separator [ref=e139]
+        - code [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e147]:
+              - generic [ref=e486]: "1"
+              - generic [ref=e152]: "2"
+              - generic [ref=e487]:
+                - generic [ref=e488] [cursor=pointer]: 
+                - generic [ref=e489]: "3"
+              - generic [ref=e491]: "4"
+              - generic [ref=e493]: "5"
+              - generic [ref=e495]: "6"
+              - generic [ref=e497]: "7"
+              - generic [ref=e170]: "8"
+              - generic [ref=e498]:
+                - generic [ref=e499] [cursor=pointer]: 
+                - generic [ref=e500]: "9"
+              - generic [ref=e501]:
+                - generic [ref=e502] [cursor=pointer]: 
+                - generic [ref=e503]: "10"
+              - generic [ref=e504]:
+                - generic [ref=e505] [cursor=pointer]: 
+                - generic [ref=e506]: "11"
+              - generic [ref=e507]:
+                - generic [ref=e508] [cursor=pointer]: 
+                - generic [ref=e509]: "12"
+              - generic [ref=e510]:
+                - generic [ref=e511] [cursor=pointer]: 
+                - generic [ref=e512]: "13"
+              - generic [ref=e185]: "14"
+              - generic [ref=e187]: "15"
+              - generic [ref=e514]: "16"
+              - generic [ref=e515]:
+                - generic [ref=e516] [cursor=pointer]: 
+                - generic [ref=e517]: "17"
+              - generic [ref=e518]:
+                - generic [ref=e519] [cursor=pointer]: 
+                - generic [ref=e520]: "18"
+              - generic [ref=e521]:
+                - generic [ref=e522] [cursor=pointer]: 
+                - generic [ref=e523]: "19"
+              - generic [ref=e198]: "20"
+              - generic [ref=e200]: "21"
+              - generic [ref=e202]: "22"
+              - generic [ref=e204]: "23"
+              - generic [ref=e524]:
+                - generic [ref=e525] [cursor=pointer]: 
+                - generic [ref=e526]: "24"
+              - generic [ref=e528]: "25"
+              - generic [ref=e529]:
+                - generic [ref=e530] [cursor=pointer]: 
+                - generic [ref=e531]: "26"
+              - generic [ref=e213]: "27"
+              - generic [ref=e537]: "28"
+              - generic [ref=e539]: "29"
+            - generic [ref=e415]:
+              - generic [ref=e662]: "import { Check } from 'lucide-react';"
+              - generic [ref=e664]: "export default function PricingCard({"
+              - generic [ref=e666]: name,
+              - generic [ref=e668]: price,
+              - generic [ref=e670]: description,
+              - generic [ref=e672]: features,
+              - generic [ref=e674]: highlighted = false
+              - generic [ref=e676]: "}) {"
+              - generic [ref=e678]: return (
+              - generic [ref=e680]: <div
+              - generic [ref=e682]: "className={`rounded-lg overflow-hidden"
+              - generic [ref=e684]: highlighted
+              - generic [ref=e686]: "? 'bg-blue-600 text-white shadow-2xl ring-2"
+              - generic [ref=e688]: ": 'bg-white text-gray-900 shadow-lg'"
+              - generic [ref=e690]: "}`}"
+              - generic [ref=e692]: ">"
+              - generic [ref=e694]: "{highlighted && ("
+              - generic [ref=e696]: <div className="bg-blue-700 px-4 py-2 text-center
+              - generic [ref=e698]: MOST POPULAR
+              - generic [ref=e700]: </div>
+              - generic [ref=e702]: ")}"
+              - generic [ref=e706]: <div className="p-8">
+              - generic [ref=e708]: "<h3 className=\"text-2xl font-bold mb-2\">{name}</h3>"
+              - generic [ref=e710]: "<p className={`text-sm mb-6 ${highlighted ?"
+              - generic [ref=e712]: "{description}"
+              - generic [ref=e714]: "transition-transform duration-300 hover:scale-105 ${"
+              - generic [ref=e716]: ring-blue-400'
+              - generic [ref=e718]: text-sm font-semibold">
+              - generic [ref=e720]: "'text-blue-100' : 'text-gray-600'}`}>"
+              - generic [ref=e722]: </p>
+            - textbox "Editor content" [ref=e482]: "</div> ); }"
+  - alert [ref=e47]
+  - generic [ref=e483]:
+    - alert
+    - alert
